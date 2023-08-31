@@ -1,0 +1,119 @@
+body{
+    background-color: #494949;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+
+}
+#cxarea{
+    margin: 5px;
+    background-color: #1d1c18;
+    padding: 20px;
+    width: 30%;
+    color: #fff ;
+    font-family: arial;
+    font-size: 14px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(34, 34, 34);
+}
+#cxarea input[type="text"]{
+    background-color: #1d1c18;
+    border: 0;
+    width: 250px;
+    padding: 10px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+}
+#cxarea input[type="submit"]{
+    border: 1px solid #222;
+    background-color: #1d1c18;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+#cxunidade{
+    margin: 5px;
+    background-color: #1d1c18;
+    padding: 20px;
+    width: 30%;
+    color: #fff ;
+    font-family: arial;
+    font-size: 14px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(34, 34, 34);
+}
+
+#cxunidade input[type="text"]{
+    background-color: #1d1c18;
+    border: 0;
+    width: 250px;
+    padding: 10px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+}
+#cxunidade input[type="submit"]{
+    border: 1px solid #222;
+    background-color: #1d1c18;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    
+}
+#cxunidade input[type="address"]{
+    border: 1px solid #222;
+    background-color: #1d1c18;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 34px;
+}
+#cxcurso{
+    background-color: #1d1c18;
+    padding: 20px;
+    width: 65%;
+    color: #fff ;
+    font-family: arial;
+    font-size: 14px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(34, 34, 34);
+}
+#cxcurso input[type="text"]{
+    background-color: #1d1c18;
+    border: 0;
+    width: 250px;
+    padding: 10px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+}
+cxcurso select{
+    padding: 10px;
+    background-color: 1d1c18;
+    color: #ccc;
+    border: 0px;
+    margin: 10px;
+    width: 150px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin: 10px;
+}
